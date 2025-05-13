@@ -1,0 +1,10 @@
+<icu_chain locale="ru">
+    <transform rule="[^а-яА-ЯёЁ] NFD"/> <tokenize rule="l"/>
+    <transform rule="[[:WhiteSpace:][:Punctuation:]] Remove"/>
+    <transform rule="NFD"/>
+    <transform rule="[:Nonspacing Mark:] Remove"/>
+    <transform rule="NFC"/>
+
+    <display/>
+    <casemap rule="l"/>
+</icu_chain>

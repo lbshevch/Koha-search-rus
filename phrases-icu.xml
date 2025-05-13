@@ -1,0 +1,12 @@
+<icu_chain locale="ru">
+    <transform rule="[^а-яА-ЯёЁ\s\p{P}] NFD"/>
+    <tokenize rule="w"/>
+    <transform rule="[:Nonspacing Mark:] Remove"/>
+    <transform rule="NFC"/>
+
+    <transform rule="[в|на|с|для|и|но|а|что|как|это|так|же|то|не|он|она|они|мы|ты] Remove"/>
+
+    <casemap rule="l"/>
+
+    <display/>
+</icu_chain>
