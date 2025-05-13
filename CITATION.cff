@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Русскоязычный поиск в Koha
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - name: Библиотека для открытой науки
+    address: 'Восход, 15'
+    city: Новосибирск
+    region: 'Выберите штат:'
+    email: onion@spsl.nsc.ru
+    website: 'https://lib-os.ru/'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15393282
+repository-code: 'https://github.com/lbshevch/Koha-search-rus'
+abstract: >-
+  В документации по использованию Koha есть рекомендации для
+  нелатинских языков, но именно для русского языка не было
+  файлов с примерами, поэтому для устранения проблем была
+  написаны новые файлы
+license: GPL-3.0
+date-released: '2025-04-13'
